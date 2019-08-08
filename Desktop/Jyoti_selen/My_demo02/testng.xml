@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test name="Test">
+  <parameter name="Browser" value = "chrome"> </parameter>
+  <parameter name="OS" value = "windows10"> </parameter>
+   <classes>
+     
+      <class name="Mypack99.dp432"/>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
